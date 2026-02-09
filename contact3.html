@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Colloquium</title>
+
+  <!-- Tailwind (same as event7.html) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Space+Mono&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    body {
+      font-family: 'Space Grotesk', sans-serif;
+      background-color: #050505;
+      color: #fef3c7;
+      background-image: radial-gradient(circle at 50% 50%, #111 0%, #050505 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .mono {
+      font-family: 'Space Mono', monospace;
+    }
+
+    .icon-circle {
+      width: 52px;
+      height: 52px;
+      border: 1px solid rgba(255,255,255,0.6);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      transition: all 0.3s ease;
+    }
+
+    .icon-circle:hover {
+      border-color: #d97706;
+      color: #d97706;
+      box-shadow: 0 0 15px rgba(217,119,6,0.6);
+      transform: scale(1.1);}
+      /* CONTACT title */
+.contact-title {
+  font-size: 18px;                 /* bigger */
+  font-weight: 700;                /* bold */
+  letter-spacing: 0.5em;
+  color: #d97706;                  /* yellow-orange (event7 amber) */
+  text-shadow:
+    0 0 8px rgba(217, 119, 6, 0.6),
+    0 0 20px rgba(217, 119, 6, 0.3);
+}
+
+/* Bottom line */
+.contact-footer {
+  font-size: 14px;                 /* increased size */
+  font-weight: 600;
+  color: #d97706;                  /* yellow-orange */
+  text-align: center;
+  text-shadow:
+    0 0 6px rgba(217, 119, 6, 0.5);
+}
+
+/* Heart */
+.contact-footer .heart {
+  color: #ff4d4d;
+  text-shadow: 0 0 6px rgba(255, 77, 77, 0.6);
+}
+
+
+  </style>
+</head>
+
+<body>
+
+  <section class="w-full text-center">
+
+    <!-- CONTACT -->
+    <h2 class="contact-title mono uppercase mb-10">
+      CONTACT:
+    </h2>
+
+    <!-- Icons -->
+    <div class="flex justify-center gap-8 mb-12">
+      <a href="https://www.instagram.com/iste_tiet/?hl=en" class="icon-circle" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://in.linkedin.com/company/iste-thapar" class="icon-circle" aria-label="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://www.facebook.com/ISTE.Thapar/" class="icon-circle" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </div>
+
+    <!-- Footer text -->
+    <p class="contact-footer mono tracking-wide">
+      ©COLLOQUIUM 2026 ALL RIGHTS RESERVED |
+      Designed With <span class="text-red-500">❤</span> by Team ISTE
+    </p>
+
+  </section>
+
+</body>
+</html>
